@@ -24,6 +24,8 @@
 		EC340A7316C011A5003AD199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC340A4B16C011A4003AD199 /* Foundation.framework */; };
 		EC340A7B16C011A5003AD199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC340A7916C011A5003AD199 /* InfoPlist.strings */; };
 		EC340A7E16C011A5003AD199 /* navigationcontroller_lessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC340A7D16C011A5003AD199 /* navigationcontroller_lessonTests.m */; };
+		EC340A8D16C011EA003AD199 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC340A8C16C011EA003AD199 /* FeedViewController.m */; };
+		EC340A9016C01280003AD199 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC340A8F16C01280003AD199 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		EC340A7A16C011A5003AD199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC340A7C16C011A5003AD199 /* navigationcontroller_lessonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = navigationcontroller_lessonTests.h; sourceTree = "<group>"; };
 		EC340A7D16C011A5003AD199 /* navigationcontroller_lessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navigationcontroller_lessonTests.m; sourceTree = "<group>"; };
+		EC340A8B16C011EA003AD199 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		EC340A8C16C011EA003AD199 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		EC340A8E16C01280003AD199 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		EC340A8F16C01280003AD199 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +127,14 @@
 			children = (
 				EC340A5816C011A5003AD199 /* AppDelegate.h */,
 				EC340A5916C011A5003AD199 /* AppDelegate.m */,
+				EC340A8E16C01280003AD199 /* ProfileViewController.h */,
+				EC340A8F16C01280003AD199 /* ProfileViewController.m */,
 				EC340A6116C011A5003AD199 /* MainStoryboard_iPhone.storyboard */,
 				EC340A6416C011A5003AD199 /* MainStoryboard_iPad.storyboard */,
 				EC340A6716C011A5003AD199 /* ViewController.h */,
 				EC340A6816C011A5003AD199 /* ViewController.m */,
+				EC340A8B16C011EA003AD199 /* FeedViewController.h */,
+				EC340A8C16C011EA003AD199 /* FeedViewController.m */,
 				EC340A5016C011A4003AD199 /* Supporting Files */,
 			);
 			path = navigationcontroller_lesson;
@@ -277,6 +287,8 @@
 				EC340A5616C011A5003AD199 /* main.m in Sources */,
 				EC340A5A16C011A5003AD199 /* AppDelegate.m in Sources */,
 				EC340A6916C011A5003AD199 /* ViewController.m in Sources */,
+				EC340A8D16C011EA003AD199 /* FeedViewController.m in Sources */,
+				EC340A9016C01280003AD199 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
